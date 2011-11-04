@@ -1,3 +1,9 @@
+# revision 16287
+# category Package
+# catalog-ctan /biblio/bibtex/contrib/misc/pnas2009.bst
+# catalog-date 2009-12-06 09:16:45 +0100
+# catalog-license other-free
+# catalog-version 1.0
 Name:		texlive-pnas2009
 Version:	1.0
 Release:	1
@@ -36,6 +42,7 @@ the new (2009) formatting rules.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/bibtex/bst/pnas2009/pnas2009.bst
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -46,3 +53,5 @@ the new (2009) formatting rules.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
