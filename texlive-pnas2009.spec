@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-pnas2009
 Version:	1.0
-Release:	6
+Release:	7
 Summary:	Bibtex style for PNAS
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/misc/pnas2009.bst
