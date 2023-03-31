@@ -1,6 +1,6 @@
 Name:		texlive-pnas2009
 Version:	16287
-Release:	1
+Release:	2
 Summary:	Bibtex style for PNAS
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/misc/pnas2009.bst
