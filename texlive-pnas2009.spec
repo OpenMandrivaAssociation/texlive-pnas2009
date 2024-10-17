@@ -3,7 +3,7 @@ Version:	16287
 Release:	2
 Summary:	Bibtex style for PNAS
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/misc/pnas2009.bst
+URL:		https://www.ctan.org/tex-archive/biblio/bibtex/contrib/misc/pnas2009.bst
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pnas2009.r%{version}.tar.xz
 BuildArch:	noarch
